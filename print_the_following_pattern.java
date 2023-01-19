@@ -5,13 +5,15 @@ class Main
     {
         Scanner s=new Scanner(System.in);
         int n=s.nextInt();
-        for(int i=n;i>=1;i--)
+        char a[]={'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
+        for(int i=0;i<n;i++)
         {
-            for(int j=n;j>=1;j--)
+            for(int j=0;j<n;j++)
             {
-                System.out.print(j+" ");
+                System.out.print(a[i]+" ");
             }
             System.out.println();
         }
+        
     }
 }
